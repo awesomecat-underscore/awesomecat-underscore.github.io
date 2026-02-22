@@ -1,0 +1,33 @@
+.top3 {
+    width:100%;
+    overflow:auto;
+    display: flex;
+    justify-content: center; /* horizontal */
+    align-items: center
+}
+
+.top3 div {
+    margin: auto;
+    width: 40%;
+    display: inline-block;
+}
+
+
+.artistLabel {
+    font-size: smaller;
+    color: grey;
+}
+
+.albumArt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    margin: auto;
+}
+
+.top3title {
+    color: deepskyblue;
+    font-size: 150%;
+    font-family: monospace;
+}

@@ -16,6 +16,13 @@ h2 {
     text-decoration: none;
 }
 
+h3 {
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
 nav {
     text-align: center;
     font-family: sans-serif;
@@ -29,4 +36,5 @@ p {
 
 a {
     color: aqua;
+    text-align: center;
 }
