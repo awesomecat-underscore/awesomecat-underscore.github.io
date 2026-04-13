@@ -1,9 +1,12 @@
 var nav = document.getElementById("navbar");
+const logo = document.createElement("logo");
 
-var logo = '<img style="size: 25%;" src="/images/acabode.png" alt="acabode logo">'
 var title = "<h1>Awesomecat's Abode</h1>";
 
-nav.innerHTML = logo + title
+logo.innerHTML = "<img src='/images/acabode.png'>"
+logo.style.scale = 25;
+
+nav.innerHTML = logo + title;
 
 nav.style.textAlign = "center";
 
