@@ -1,9 +1,9 @@
 var nav = document.getElementById("navbar");
-const logo = document.createElement("logo");
+const logo = document.createElement("img");
 
 var title = "<h1>Awesomecat's Abode</h1>";
 
-logo.innerHTML = "<img src='/images/acabode.png'>";
+logo.src = '/images/acabode.png'
 logo.style.scale = 25;
 
 nav.innerHTML = logo + title;
