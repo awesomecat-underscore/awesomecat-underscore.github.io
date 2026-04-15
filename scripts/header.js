@@ -1,14 +1,14 @@
-var nav = document.getElementById("navbar");
-const logo = document.createElement("img");
+var img = document.createElement("img");
+img.src = "/images/acabode.png"; 
+img.style.width = '316';
+img.style.height = '251';
 
-var title = "<h1>Awesomecat's Abode</h1>";
+var message = document.createElement("p");
+message.innerHTML = "comming soon :)"
+// message.style.
 
-logo.src = '/images/acabode.png'
-logo.style.scale = 25;
-
-nav.innerHTML = logo + title;
-
-nav.style.textAlign = "center";
-
-nav.style.fontFamily = "Arial"
-nav.style.fontSize = "12px"
+var src = document.getElementById("header");
+src.appendChild(img);
+src.style.scale = '25%';
+message.style.fontSize = "400%";
+src.appendChild(message);
