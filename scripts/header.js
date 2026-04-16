@@ -26,7 +26,7 @@ cats.style.color = "white";
 
 
 p.style.textAlign = "center";
-p.style.backgroundColor = "black";
+p.style.backgroundImage = "linear-gradient(to bottom, grey, black)";
 p.style.paddingTop = "2%";
 p.style.paddingBottom = "2%";
 p.style.marginLeft = "30%";
@@ -41,7 +41,6 @@ title.style.textAlign = 'center';
 title.style.fontFamily = 'Comic Sans MS, Arial';
 
 // why am i using a p as a div ???
-
 
 
 root.appendChild(p); 
