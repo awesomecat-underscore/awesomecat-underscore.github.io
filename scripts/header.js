@@ -37,7 +37,8 @@ p.style.fontSize = '30px';
 p.style.fontFamily = "Arial";
 
 title.innerHTML = "awesomecat's abode"
-title.textAlign = 'center';
+title.style.textAlign = 'center';
+title.style.fontFamily = 'Comic Sans MS, Arial';
 
 // why am i using a p as a div ???
 
