@@ -1,14 +1,42 @@
-var img = document.createElement("img");
-img.src = "/images/acabode.png"; 
-img.style.width = '316';
-img.style.height = '251';
+// ik my js sucks pls don't judge :(
 
-var message = document.createElement("p");
-message.innerHTML = "comming soon :)"
-// message.style.
+var root = document.getElementById("header");
 
-var src = document.getElementById("header");
-src.appendChild(img);
-src.style.scale = '25%';
-message.style.fontSize = "400%";
-src.appendChild(message);
+var p = document.createElement("p");
+
+var home = document.createElement("a");
+var music = document.createElement("a");
+var cats = document.createElement("a");
+
+home.innerHTML = "home";
+home.href = "/";
+home.style.padding = "1%";
+home.style.color = "white";
+
+music.innerHTML = "music";
+music.href = "/music/";
+music.style.padding = "1%";
+music.style.color = "white";
+
+cats.innerHTML = "cats";
+cats.href = "/cats/";
+cats.style.padding = "1%";
+cats.style.color = "white";
+
+
+p.style.textAlign = "center";
+p.style.backgroundColor = "black";
+p.style.paddingTop = "2%";
+p.style.paddingBottom = "2%";
+p.style.marginLeft = "30%";
+p.style.marginRight = "30%";
+p.style.borderRadius = "50px";
+p.style.fontSize = '30px';
+
+p.style.fontFamily = "Arial";
+
+
+root.appendChild(p); 
+p.insertAdjacentElement("beforeend", home);
+p.insertAdjacentElement("beforeend", music);
+p.insertAdjacentElement("beforeend", cats);
