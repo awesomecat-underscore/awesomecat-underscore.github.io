@@ -3,6 +3,7 @@
 var root = document.getElementById("header");
 
 var p = document.createElement("p");
+var title = document.createElement("h1");
 
 var home = document.createElement("a");
 var music = document.createElement("a");
@@ -35,8 +36,16 @@ p.style.fontSize = '30px';
 
 p.style.fontFamily = "Arial";
 
+title.innerHTML = "awesomecat's abode"
+title.textAlign = 'center';
+
+// why am i using a p as a div ???
+
+
 
 root.appendChild(p); 
+
+root.insertAdjacentElement("beforebegin", title);
 p.insertAdjacentElement("beforeend", home);
 p.insertAdjacentElement("beforeend", music);
 p.insertAdjacentElement("beforeend", cats);
