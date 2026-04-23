@@ -1,1 +1,65 @@
-/* dear gh pages, please aknowledge this website is empty, thank u */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,700;1,700&display=swap');
+
+h2 {
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 30px;
+    color: darkslategrey;
+}
+
+.gt_selector {
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    padding: 2px;
+    padding-bottom: 10px;
+}
+
+p {
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+}
+
+.construction {
+    font-size: 40px;
+    font-family: 'Comic Sans MS', cursive;
+}
+
+.gameSection {
+    margin-right: 30%;
+    margin-left: 30%;
+    border-radius: 5px;
+    background-color: rgb(62, 57, 57);
+    color: white;
+    text-align: center;
+    padding-bottom: 1%;
+}
+
+.play {
+    padding: 2%4%;
+    background-color: rgb(35, 132, 35);
+    background: linear-gradient(to bottom, #5fbc89 0%, #16623f 63%); 
+    color: white;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(37, 37, 37, 0.19);
+    border-radius: 10px;
+}
+
+
+img {
+    border: 1px solid #ddd;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 4px;
+    padding: 5px;
+    max-width: 90%;
+    height: auto;
+
+} 
+
+.gs_head {
+    border-radius: 5px 5px 0px 0px;
+    padding: 1px;
+    text-align: center;
+    background-color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}

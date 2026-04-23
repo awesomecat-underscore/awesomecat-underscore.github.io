@@ -8,11 +8,18 @@ var title = document.createElement("h1");
 var home = document.createElement("a");
 var music = document.createElement("a");
 var cats = document.createElement("a");
+var games = document.createElement("a");
+
 
 home.innerHTML = "home";
 home.href = "/";
 home.style.padding = "1%";
 home.style.color = "white";
+
+games.innerHTML = "games";
+games.href = "/games";
+games.style.padding = "1%";
+games.style.color = "white";
 
 music.innerHTML = "music";
 music.href = "/music/";
@@ -26,7 +33,7 @@ cats.style.color = "white";
 
 
 p.style.textAlign = "center";
-p.style.backgroundImage = "linear-gradient(to bottom, grey, black)";
+p.style.backgroundImage = "linear-gradient(to bottom, grey 0%, black 63%)";
 p.style.paddingTop = "2%";
 p.style.paddingBottom = "2%";
 p.style.marginLeft = "30%";
@@ -47,5 +54,6 @@ root.appendChild(p);
 
 root.insertAdjacentElement("beforebegin", title);
 p.insertAdjacentElement("beforeend", home);
+p.insertAdjacentElement("beforeend", games);
 p.insertAdjacentElement("beforeend", music);
 p.insertAdjacentElement("beforeend", cats);
