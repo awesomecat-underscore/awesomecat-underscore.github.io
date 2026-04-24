@@ -104,5 +104,7 @@ p {
     justify-content: center;
     align-items: center;
     display: flex;
-    width: -moz-available;
+    padding-left: 5%;
+    padding-right: 5%;
+
 }
