@@ -92,6 +92,7 @@ p {
     font-size: small;
     text-align: left;
     color: darkgrey;
+    text-align: center;
 
 }
 
@@ -109,8 +110,52 @@ p {
 
 }
 
-
 h3 {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 5px;
+    color: white;
+    background-image: linear-gradient(to bottom, #7d7d7d 0%, #000000 63%);
+}
+
+.albumCov {
+    border: 1px solid #ddd;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 4px;
+    padding: 5px;
+    max-width: 50%;
+    text-align: center;
+    height: auto;
+}
+
+.album {
+    text-align: center;
+    padding: 1%;
+    color: white;
+    font-size: large;
+    background-color: black;
+    border-radius: 4px;
+    margin: 1%;
+    width: 29%;
+}
+
+.bah {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 8px;
+}
+
+.empty {
+    width: max-content;
 }
