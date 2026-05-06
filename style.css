@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,700;1,700&display=swap');
 
+@font-face {
+    font-family: 'Lucida Sans';
+    src: url('/fonts/lucidagrande-regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 h2 {
     text-align: center;
     font-family: 'Rubik', sans-serif;
@@ -164,6 +172,61 @@ h3 {
     display: flex;
     justify-content: center;
 }
+
+.sticker {
+    padding: 3px;
+}
+
+.window {
+    margin-right: 10%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 10%;
+    border-radius: 8px 8px 5px 5px;
+    background-color: #FFFFFF;
+    color: black;
+}
+
+.introThing {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.homeImage {
+    margin: 1%;
+    border-width: 0px;
+    max-width: 30%;
+    height: auto;
+}
+
+.padding {
+    padding-left: 60px;
+    padding-right: 0px;
+
+}
+
+.titleBar {
+    display: flex;
+    padding-top: 1px;
+    background-image: url("/images/titleBar/menubar.png");
+    padding-bottom: 4px;
+    height: 20px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    align-items: center;
+    border-radius: 6px 6px 0px 0px;
+}
+
+.barFont {
+    padding-top: 3px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 2000px;
+}
+
 
 /*dear git pls work*/
 /*new libne cuz git only fuicking works when you add a new line to a flie*/
