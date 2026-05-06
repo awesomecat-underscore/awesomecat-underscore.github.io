@@ -222,9 +222,10 @@ h3 {
     padding-top: 3px;
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
+    margin-left: -60px;
     font-size: large;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    width: 2000px;
+    width: 1900px;
 }
 
 
