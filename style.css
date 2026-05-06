@@ -184,6 +184,7 @@ h3 {
     border-radius: 8px 8px 5px 5px;
     background-color: #FFFFFF;
     color: black;
+    width: fit-content;
 }
 
 .introThing {
@@ -211,6 +212,7 @@ h3 {
     background-image: url("/images/titleBar/menubar.png");
     padding-bottom: 4px;
     height: 20px;
+
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
@@ -225,8 +227,17 @@ h3 {
     margin-left: -60px;
     font-size: large;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    width: 1900px;
+    width: 100%;
 }
 
+li {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.smallW {
+    padding-left: 2%;
+    padding-right: 6%;
+
+}
 
 /*dear git pls work*/
