@@ -178,9 +178,8 @@ h3 {
 }
 
 .window {
-    margin-right: 10%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin-left: 10%;
+    
     border-radius: 8px 8px 5px 5px;
     background-color: #FFFFFF;
     color: black;
@@ -191,6 +190,12 @@ h3 {
     display: flex;
     justify-content: center;
     text-align: center;
+    align-items: center;
+    color: white;
+    background-color: black;
+    padding-top: 2%;
+    padding-bottom: 2%;
+
 }
 
 .homeImage {
@@ -200,17 +205,12 @@ h3 {
     height: auto;
 }
 
-.padding {
-    padding-left: 60px;
-    padding-right: 0px;
-
-}
 
 .titleBar {
     display: flex;
     padding-top: 1px;
     background-image: url("/images/titleBar/menubar.png");
-    padding-bottom: 4px;
+    padding-bottom: 3px;
     height: 20px;
 
     white-space: nowrap;
@@ -238,6 +238,21 @@ li {
     padding-left: 2%;
     padding-right: 6%;
 
+}
+
+.contSect {
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.interests{
+    margin-right: 2%;
+    margin-left: 2%;
+    width: calc(88% /3);
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
 }
 
 /*dear git pls work*/
