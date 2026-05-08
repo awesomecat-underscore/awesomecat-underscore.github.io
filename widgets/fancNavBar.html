@@ -10,10 +10,24 @@
 </head>
 <body>
     <div style="display: flex; justify-content: center; margin-top: 50px;">
-        <a target="_parent" href="/info.html"><img style="scale: 130%;" src="/images/icons/info.png" alt="Info Icon"></a>
+        <a id="imgLink" target="_parent" href="/info.html"><img id="icon" style="scale: 130%;" src="/images/icons/nojs.png" alt="Info Icon"></a>
     </div>
-    <a href="/info.html"><p style="text-align: center;">Site info</p></a>
+    <a id="link" target="_parent" href="/info.html"><p id="text" style="text-align: center;">JS broke oh noes</p></a>
     <p style="font-size: small; text-align: center; color: grey;">i add more stuff later</p>
     
+    <script>
+        var link = document.getElementById("link");
+        var text = document.getElementById("text");
+        var icon = document.getElementById("icon");
+        var imgLink = document.getElementById("imgLink");
+
+        imgLink.href = "/info.html"
+        link.href = "/info.html";
+        text.innerHTML = "Site info";
+        icon.src = "/images/icons/info.png"
+
+
+    </script>
+
 </body>
 </html>
