@@ -24,9 +24,9 @@
         var icon = document.getElementById("icon");
         var imgLink = document.getElementById("imgLink");
 
-        var links = ["/info.html"];
-        var texts = ["Site Info"];
-        var icons = ["/images/icons/info.png"];
+        var links = ["/linux","/info.html"];
+        var texts = ["linux","Site Info"];
+        var icons = ["/images/icons/tux.png","/images/icons/info.png"];
 
         var idx = 0;
 
@@ -37,8 +37,16 @@
         function updateScreen() {
             if (idx == 0) {
                 bl.disabled = true;
-                br.disabled = true;
+            } else {
+                bl.disabled = false
             }
+
+            if (idx == 1) {
+                br.disabled = true;
+            } else {
+                br.disabled = false
+            }
+            
 
             imgLink.href = links[idx];
             link.href = links[idx];
@@ -58,5 +66,22 @@
         }
     </script>
 
+    <style>
+    button {
+        border-radius: 50px;
+        border-color: #104f12;
+        background-image: linear-gradient(to bottom, #5fbc89 0%, #16623f 63%);
+        color: white;
+    }
+
+    button:disabled {
+        color: rgb(69, 69, 69);
+        border-color: grey;
+        background-image: linear-gradient(to bottom, #efefef 0%, #5c5c5c 63%);
+    }
+
+
+
+    </style>
 </body>
 </html>
