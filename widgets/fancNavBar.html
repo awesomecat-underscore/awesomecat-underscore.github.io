@@ -10,9 +10,9 @@
 </head>
 <body>
     <div style="display: flex; justify-content: center; margin-top: 50px;">
-        <button>&lt</button>
+        <button id="bl" onclick="back();" style="margin-right: 20px;">&lt</button>
         <a id="imgLink" target="_parent" href="/info.html"><img id="icon" style="scale: 130%;" src="/images/icons/nojs.png" alt="Info Icon"></a>
-        <button>&gt</button>
+        <button id="br" onclick="forward();" style="margin-left: 20px;">&gt</button>
     </div>
     <a id="link" target="_parent" href="/info.html"><p id="text" style="text-align: center;">JS broke oh noes</p></a>
     <a target="_parent" href="/info.html"></a>
@@ -26,13 +26,34 @@
 
         var links = ["/info.html"];
         var texts = ["Site Info"];
+        var icons = ["/images/icons/info.png"];
 
-        imgLink.href = links[0];
-        link.href = links[0];
-        text.innerHTML = texts[0];
-        icon.src = "/images/icons/info.png"
+        var idx = 0;
 
+        updateScreen();
 
+        
+
+        function updateScreen() {
+            if (idx == 0) {
+                bl.disabled = true;
+                br.disabled = true;
+            }
+
+            imgLink.href = links[idx];
+            link.href = links[idx];
+            text.innerHTML = texts[idx];
+            icon.src = icons[idx]
+
+        }
+
+        function back() {
+            // pass
+        }
+
+        function forward() {
+            // pass
+        }
     </script>
 
 </body>
