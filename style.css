@@ -237,18 +237,23 @@ li {
 .smallW {
     padding-left: 2%;
     padding-right: 6%;
+    
 
 }
 
 .contSect {
     margin-right: 10%;
     margin-left: 10%;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .interests{
+    margin-top: 5%;
     margin-right: 2%;
     margin-left: 2%;
     width: calc(88% /3);
+    min-width: 270px;
 }
 
 h1 {
