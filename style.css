@@ -267,6 +267,7 @@ h1 {
 }
 
 .tbText {
+    display: block;
     padding-right: 55px;
     font-weight: 400;
     font-size: large;
