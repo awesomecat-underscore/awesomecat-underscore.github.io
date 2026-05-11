@@ -222,7 +222,6 @@ h3 {
 
 .barFont {
     padding-top: 3px;
-    font-family: 'Times New Roman', Times, serif;
     text-align: center;
     margin-left: -60px;
     font-size: large;
@@ -260,9 +259,6 @@ h1 {
     font-family: 'Courier New', Courier, monospace;
 }
 
-button {
-    border-color: #104f12;
-}
 
 /*dear git pls work*/
 /*dear git pls work*/
