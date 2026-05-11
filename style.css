@@ -215,7 +215,7 @@ h3 {
     font-size: medium;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     width: 100%;
-    max-height: 20px;
+    height: 20px;
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
@@ -269,6 +269,7 @@ h1 {
 .tbText {
     display: block;
     padding-right: 55px;
+    height: 20px;
     font-weight: 400;
     font-size: large;
 }
