@@ -17,30 +17,36 @@
         }
 
         .titleBar {
-
             margin-left: 10%;
             margin-right: 10%;
-            
             background: linear-gradient(to bottom, #ffffff 30%, #e2e2e2 50%, #ffffff 100%); 
+            background-image: url("/images/titleBar/menubar.png");
             padding: 0px;
             border-radius: 8px 8px 0px 0px;
             text-align: center;
-            font-size:medium;
+            font-size: medium;
             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
             width: 80%;
             max-height: 20px;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
         }
 
         .tbButton {
             width: 20px;
             max-height: 20px;
             padding: 0px;
-            margin: 0px;
         }
 
         .tbText {
             padding-right: 55px;
         }
+
+        .tbImage {
+            display: block;
+        }
+
     </style>
 </head>
 <body>
@@ -50,13 +56,13 @@
         <tbody > 
             <tr >
                 <th class="tbButton">
-                    <img src="/images/titleBar/close.png" alt="">
+                    <img class="tbImage" src="/images/titleBar/close.png" alt="">
                 </th>
                 <th class="tbButton">
-                    <img src="/images/titleBar/minimize.png" alt="">
+                    <img class="tbImage" src="/images/titleBar/minimize.png" alt="">
                 </th>
                 <th class="tbButton">
-                    <img src="/images/titleBar/maximize.png" alt="">
+                    <img class="tbImage" src="/images/titleBar/maximize.png" alt="">
                 </th>
                 <th class="tbText">
                     text title thing yaddy yaddy yah
