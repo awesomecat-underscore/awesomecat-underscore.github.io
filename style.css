@@ -207,7 +207,7 @@ h3 {
 
 
 .titleBar {
-    background: linear-gradient(to bottom, #ffffff 30%, #e2e2e2 50%, #ffffff 100%); 
+    background: linear-gradient(to bottom, rgb(255, 255, 255) 30%, #e2e2e2 50%, #e2e2e2 100%); 
     padding: 0px;
     border-radius: 8px 8px 0px 0px;
     text-align: center;
@@ -218,7 +218,7 @@ h3 {
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
-    }
+}
 
 .barFont {
     padding-top: 3px;
