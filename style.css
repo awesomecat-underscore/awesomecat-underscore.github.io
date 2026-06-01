@@ -187,22 +187,27 @@ h3 {
 }
 
 .introThing {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
     color: white;
     background-color: black;
+    width: 100%;
     padding-top: 2%;
     padding-bottom: 2%;
 
 }
 
+.introTable {
+    margin: auto;
+}
+
+
 .homeImage {
-    margin: 1%;
     border-width: 0px;
-    max-width: 30%;
+    max-width: 130%;
     height: auto;
+}
+
+.imageContainer {
+    padding-left: 6%;
 }
 
 
