@@ -282,5 +282,13 @@ h1 {
     display: block;
 }
 
+.stats {
+    margin-top: 1%;
+    margin-left: 44%;
+    margin-right: 44%;
+    width: 50px;
+    max-width: 250px;
+}
+
 /*dear git pls work*/
 /*dear git pls work*/
