@@ -8,7 +8,7 @@
 }
 
 p {
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Lucida Sans', sans-serif;
 }
 
 .window {
@@ -36,10 +36,8 @@ p {
 }
 
 .contSect {
-    margin-right: 10%;
-    margin-left: 10%;
-    flex-wrap: wrap;
-    justify-content: center;
+    width: 1000px;
+    margin: auto;
 }
 
 .tbButton {
@@ -60,10 +58,10 @@ p {
     display: block;
 }
 
-.content {
-    
-}
-
 .contTable {
     background-color: blue;
+}
+
+h2 {
+    margin: 0px;
 }
