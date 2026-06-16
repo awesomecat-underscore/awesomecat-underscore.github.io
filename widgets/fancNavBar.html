@@ -2,98 +2,25 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        body {
+            background-color: antiquewhite;
+        }
 
+        a {
+            font-size: larger;
+        }
+        img {
+            max-width: 16px;
+        }
     </style>
 </head>
 <body>
-    <table style="margin: auto; padding-top: 8%;">
-        <tr>
-            <th>
-                <button id="bl" onclick="back();" style="margin-right: 20px; height: 60px;">&lt</button>
-            </th>
-            <th>
-                <a id="imgLink" target="_parent" href="/info.html"><img id="icon" style="scale: 130%;" src="/media/images/icons/nojs.png" alt="Info Icon"></a>
-            </th>
-            <th>
-                <button id="br" onclick="forward();" style="margin-left: 20px; height: 60px">&gt</button>
-            </th>
-        </tr>
-    </table> 
-    <a id="link" target="_parent" href="/info.html"><p id="text" style="text-align: center;">JS broke oh noes</p></a>
-    <a target="_parent" href="/info.html"></a>
-    <p style="font-size: small; text-align: center; color: grey;">i add more stuff later</p>
-    
-    <script>
-        var link = document.getElementById("link");
-        var text = document.getElementById("text");
-        var icon = document.getElementById("icon");
-        var imgLink = document.getElementById("imgLink");
-
-        var bl = document.getElementById("bl");
-        var br = document.getElementById("br");
-
-
-        var links = ["/linux","/info.html"];
-        var texts = ["linux","Site Info"];
-        var icons = ["/media/images/icons/tux.png","/media/images/icons/info.png"];
-
-        var idx = 0;
-
-        updateScreen();
-
-        
-
-        function updateScreen() {
-            if (idx == 0) {
-                bl.disabled = true;
-            } else {
-                bl.disabled = false
-            }
-
-            if (idx == 1) {
-                br.disabled = true;
-            } else {
-                br.disabled = false
-            }
-            
-
-            imgLink.href = links[idx];
-            link.href = links[idx];
-            text.innerHTML = texts[idx];
-            icon.src = icons[idx]
-
-        }
-
-        function back() {
-            idx--;
-            updateScreen();
-        }
-
-        function forward() {
-            idx++;
-            updateScreen();
-        }
-    </script>
-
-    <style>
-    button {
-        border-radius: 50px;
-        border-color: #104f12;
-        background-image: linear-gradient(to bottom, #5fbc89 0%, #16623f 63%);
-        color: white;
-    }
-
-    button:disabled {
-        color: rgb(69, 69, 69);
-        border-color: grey;
-        background-image: linear-gradient(to bottom, #efefef 0%, #5c5c5c 63%);
-    }
-
-
-
-    </style>
+    <a href="/" target="_parent">Home</a> <br>
+    <img src="/media/images/icons/tux.png" alt="">
+    <a href="/linux/" target="_parent">Linux</a> <br>
+    <img src="/media/images/icons/info.png" alt="">
+    <a href="/info.html" target="_parent">Site Info</a> <br>
 </body>
 </html>

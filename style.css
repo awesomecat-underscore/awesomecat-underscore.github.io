@@ -21,6 +21,7 @@ p {
 }
 
 .titleBar {
+    background-image: url(/media/images/titleBar/menubar.png);
     background: linear-gradient(to bottom, rgb(255, 255, 255) 30%, #e2e2e2 50%, #e2e2e2 100%); 
     padding: 0px;
     border-radius: 8px 8px 0px 0px;
@@ -60,7 +61,7 @@ p {
 }
 
 .content {
-    margin-left: 10px;
+    
 }
 
 .contTable {
