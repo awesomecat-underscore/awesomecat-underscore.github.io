@@ -71,21 +71,16 @@ img {
     image-rendering: pixelated;
 }
 
-body {
-    background-image: url("/media/images/wallpapers/tiles1.png");
-    background-repeat: repeat;
-    background-size: 96px;
+.logo {
+    width: 300px;
+    height: auto;
+    background: none;
 }
 
-/*i hate github*/
-/*i hate github*/
 
-/*i hate github*/
-
-/*i hate github*/
-
-/*i hate github*/
-
-/*i hate github*/
-
-/*i hate github*/
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: rgb(33, 33, 33);
+        color: white;
+    }
+}
