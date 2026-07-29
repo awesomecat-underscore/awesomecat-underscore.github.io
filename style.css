@@ -77,10 +77,35 @@ img {
     background: none;
 }
 
+a {
+    color:green
+}
+
+.warning {
+    background-color: yellow;
+    margin-right: 10%;
+    margin-left: 10%;
+
+}
+
+.content {
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.nav {
+    width: 250px;
+    height: auto;
+}
 
 @media (prefers-color-scheme: dark) {
     body {
         background-color: rgb(33, 33, 33);
         color: white;
+    }
+
+    .warning {
+        background-color: maroon;
+        
     }
 }
