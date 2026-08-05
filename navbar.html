@@ -42,7 +42,11 @@
 
         }
 
-        th:hover {
+        .spacer {
+            
+        }
+
+        .link:hover {
             background-color: rgb(82, 108, 44);
         }
 
@@ -57,6 +61,7 @@
             background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(179, 179, 179, 1) 9%, rgba(255, 255, 255, 1) 33%, rgba(255, 255, 255, 1) 62%, rgba(179, 179, 179, 1) 92%, rgba(255, 255, 255, 1) 100%);
             filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#FFFFFF", endColorstr="#FFFFFF", GradientType=0);
         }
+
 
         @media (prefers-color-scheme: dark) {
               .base {
@@ -82,16 +87,28 @@
     <div class="base">
         <table>
             <tr>
-                <th class="logo">
+                <th class="logo link">
                     <a target="_parent" href="/">
                         <h1>
                             AWESOMECAT'S <br> ABODE
                         </h1>
                     </a>
                 </th>
-                <th>
+                <th class="link">
                     <a target="_parent" href="/technology/linux/">
                         <p>Linux</p>
+                    </a>
+                </th>
+                <th class="link">
+                    <a target="_parent" href="/me/blog/">
+                        <p>Blog</p>
+                    </a>
+                </th>
+                <th class="spacer">
+                </th>
+                <th class="link">
+                    <a target="_parent" href="/info.html">
+                        <p>Site Info</p>
                     </a>
                 </th>
             </tr>
@@ -100,5 +117,6 @@
     <!--[if lt IE 7]>
         <p>hello IE user, shit's broken rn, sorry :( (hint, scroll down)</p>
     <![endif]-->
+
 </body>
 </html>
