@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+            height: 9%;
+        }
+
+        h1 {
+            color: #09567a;
+            padding: 0;
+            margin: 0;
+            font-size: medium;
+            text-align: center;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            
+        }
+
+        p {
+            padding: 0;
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        a {
+            text-decoration: none;
+        }
+
+        a:hover {
+            background-color: #0f95d4;
+        }
+
+        th {
+            width: 100px;
+            padding-top: 0;
+            padding-bottom: 0;
+
+
+        }
+
+        th:hover {
+            background-color: rgb(82, 108, 44);
+        }
+
+        .logo {
+            border-radius: 1px;
+            width: 150px;
+        }
+        .base {
+            background: #9e9e9e;
+            background: -webkit-linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(179, 179, 179, 1) 9%, rgba(255, 255, 255, 1) 33%, rgba(255, 255, 255, 1) 62%, rgba(179, 179, 179, 1) 92%, rgba(255, 255, 255, 1) 100%);
+            background: -moz-linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(179, 179, 179, 1) 9%, rgba(255, 255, 255, 1) 33%, rgba(255, 255, 255, 1) 62%, rgba(179, 179, 179, 1) 92%, rgba(255, 255, 255, 1) 100%);
+            background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(179, 179, 179, 1) 9%, rgba(255, 255, 255, 1) 33%, rgba(255, 255, 255, 1) 62%, rgba(179, 179, 179, 1) 92%, rgba(255, 255, 255, 1) 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#FFFFFF", endColorstr="#FFFFFF", GradientType=0);
+        }
+
+        @media (prefers-color-scheme: dark) {
+              .base {
+                background: #212121;
+                background: -webkit-linear-gradient(0deg, rgba(33, 33, 33, 1) 0%, rgba(89, 89, 89, 1) 9%, rgba(33, 33, 33, 1) 33%, rgba(0, 0, 0, 1) 62%, rgba(89, 89, 89, 1) 91%, rgba(33, 33, 33, 1) 100%);
+                background: -moz-linear-gradient(0deg, rgba(33, 33, 33, 1) 0%, rgba(89, 89, 89, 1) 9%, rgba(33, 33, 33, 1) 33%, rgba(0, 0, 0, 1) 62%, rgba(89, 89, 89, 1) 91%, rgba(33, 33, 33, 1) 100%);
+                background: linear-gradient(0deg, rgba(33, 33, 33, 1) 0%, rgba(89, 89, 89, 1) 9%, rgba(33, 33, 33, 1) 33%, rgba(0, 0, 0, 1) 62%, rgba(89, 89, 89, 1) 91%, rgba(33, 33, 33, 1) 100%);
+                filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#212121", endColorstr="#212121", GradientType=0);
+              }
+              
+              h1 {
+                color: #0f95d4;
+                /*color: linear-gradient(0deg, rgba(32, 79, 16, 1) 0%, rgba(85, 222, 51, 1) 100%);*/
+              }
+
+              p {
+                color: lightblue;
+              }
+        }
+    </style>
+</head>
+<body>
+    <div class="base">
+        <table>
+            <tr>
+                <th class="logo">
+                    <a target="_parent" href="/">
+                        <h1>
+                            AWESOMECAT'S <br> ABODE
+                        </h1>
+                    </a>
+                </th>
+                <th>
+                    <a target="_parent" href="/technology/linux/">
+                        <p>Linux</p>
+                    </a>
+                </th>
+            </tr>
+        </table>
+    </div>
+    <!--[if lt IE 7]>
+        <p>hello IE user, shit's broken rn, sorry :( (hint, scroll down)</p>
+    <![endif]-->
+</body>
+</html>
