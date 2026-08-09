@@ -119,6 +119,12 @@ body {
     padding-right: 10%;
 }
 
+.spacer {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+
 @media (prefers-color-scheme: dark) {
     body {
         background-color: rgb(88, 88, 88);
